@@ -15,7 +15,7 @@ while True:
         break
     cv2.imshow("Video", frame)
 
-### Car detection code ###
+### Add Car detection code ###
 
     k = cv2.waitKey(1)
     if k%256 == 27:                     # ESC pressed
